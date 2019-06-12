@@ -1,0 +1,20 @@
+#path{
+	width: 0.1px;
+	height: 0.1px;
+	overflow: hidden;
+	z-index: -1;
+	position: absolute;
+	opacity: 0;
+}
+#prev-div{
+	border: 0px solid black;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	overflow: hidden;
+}
+#choose{
+	padding-left: 20px;
+	padding-top: 5px;
+	cursor: pointer;
+}

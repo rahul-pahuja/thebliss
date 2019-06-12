@@ -1,0 +1,62 @@
+<style>
+	#dash-logo{
+		background-color: white;
+		color: black;
+		letter-spacing: 5px;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 20px;
+		padding: 0px 10px;
+	}
+	#dash-logo:hover{
+		text-decoration: none;
+	}
+	#nav-div a{
+		padding: 15px;
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size: 11px;
+		font-weight: 700;
+	}
+	#contain-nav{
+		background-color: transparent;
+	}
+	.navbar{
+		position: absolute;
+		top: 0;
+		z-index: 2;
+		width: 100%;
+		padding-top: 10px;
+	}
+</style>
+<nav class="navbar navbar-expand-lg" id="contain-nav">
+	<div class="container">
+		<a id="dash-logo" href="#"><strong>thebliss</strong></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-div" aria-controls="nav-div" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="nav-div">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact Us</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Wishlist</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Logout</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
